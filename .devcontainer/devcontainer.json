@@ -1,0 +1,14 @@
+{
+  "name": "Pterodactyl Demo",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [80],
+  "postCreateCommand": "bash setup.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}
